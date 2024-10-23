@@ -1,8 +1,12 @@
 esphome:
   name: balance01
 
+# ESP32 Platform
+# https://esphome.io/components/esp32.html
 esp32:
-  board: esp32-s3-devkitc-1
+  # https://registry.platformio.org/platforms/platformio/espressif32/boards?version=5.3.0
+  # https://docs.platformio.org/en/latest/boards/espressif32/nodemcu-32s.html
+  board: nodemcu-32s
   framework:
     type: arduino
 
@@ -27,7 +31,8 @@ wifi:
     password: "QFQfkY04Qboh"
 
 captive_portal:
-    
+
+# https://esphome.io/components/sensor/
 switch:
   # HX711 modules
   - platform: gpio

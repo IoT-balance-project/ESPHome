@@ -21,7 +21,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: | 
+      # https://esphome.io/guides/cli.html#config-command
+      - name: esphome config
+        run: | 
           for path in *.yaml
           do
             esphome config $path

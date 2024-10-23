@@ -1,4 +1,7 @@
+[![ESPHome validation](https://github.com/Joe-Heffer-Shef/ESPHome-test/actions/workflows/esphome.yaml/badge.svg)](https://github.com/Joe-Heffer-Shef/ESPHome-test/actions/workflows/esphome.yaml)
+
 # ESPHome test
+
 IoT firmware programming experiment using [ESPHome](https://esphome.io/) following the guide [Getting Started with the ESPHome Command Line](https://esphome.io/guides/getting_started_command_line).
 
 # Installation

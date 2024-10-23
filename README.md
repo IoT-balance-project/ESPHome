@@ -2,7 +2,7 @@
 
 # ESPHome test
 
-IoT firmware programming experiment using [ESPHome](https://esphome.io/) following the guide [Getting Started with the ESPHome Command Line](https://esphome.io/guides/getting_started_command_line).
+IoT firmware programming experiment using [ESPHome](https://esphome.io/) following the guide [Getting Started with the ESPHome Command Line](https://esphome.io/guides/getting_started_command_line).
 
 # Installation
 
@@ -25,5 +25,7 @@ pip install --requirement requirements.txt
 ```
 
 # Usage
+
+See ESPHome [Command Line Interface](https://esphome.io/guides/cli.html)
 
 TODO

@@ -28,3 +28,23 @@ wifi:
 
 captive_portal:
     
+switch:
+  # HX711 modules
+  - platform: gpio
+    name: "Weight U1"
+    pin: GPIO32
+  - platform: gpio
+    name: "Weight U2"
+    pin: GPIO22
+  - platform: gpio
+    name: "Weight U3"
+    pin: GPIO16
+  - platform: gpio
+    name: "Weight U4"
+    pin: GPIO18
+  - platform: gpio
+    name: "Weight U5"
+    pin: GPIO21
+  - platform: gpio
+    name: "Weight U6"
+    pin: GPIO25
